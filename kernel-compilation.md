@@ -67,6 +67,7 @@ Droidian tooling expects the kernel source to have a working git directory struc
 	(host)$ KERNEL_DIR="$HOME/droidian/kernel/vendor/device"
 	(host)$ PACKAGES_DIR="$HOME/droidian/packages"
 	(host)$ mkdir -p $PACKAGES_DIR
+ 	(host)$ mkdir -p $KERNEL_DIR
 	(host)$ cd $KERNEL_DIR
 	(host)$ git checkout -b droidian
 
